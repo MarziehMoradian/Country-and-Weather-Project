@@ -1,0 +1,105 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main {
+  width: 100%;
+
+}
+.table{
+    width: 80%;
+    margin:30px auto;
+}
+.img{
+    width:100%;
+    height:100%;
+}
+.imgTd {
+  width: 500px;
+  height: 500px;
+  box-shadow: 5px 5px 5px 5px rgb(209, 209, 209);
+}
+.img:hover {
+  transform: scale(1.1);
+}
+
+.list{
+  width: 50%;
+  margin:-56px  20%;
+  /* border:2px solid rgb(128, 128, 128); */
+  color:rgba(rgb(165, 164, 164), rgb(208, 216, 208), rgb(217, 217, 240), alpha);
+  border-radius:0 0 5px 5px ;
+  background-color: rgb(175, 247, 199);
+}
+li{
+  list-style-type: none;
+  cursor: pointer;
+}
+li:hover{
+  color:rgb(247, 0, 33)
+}
+span{
+  margin:10% 20px;
+  width:20%;
+  height: 250px;
+  text-align: left;
+  
+  
+}
+.callCode{
+
+  background-color: yellow;
+  border:2px solid rgb(240, 240, 8);
+  text-align: center;
+  font-size: 100px;
+  color: rgb(9, 17, 17);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+ 
+}
+
+h4{
+  text-align: center;
+  background-color: rgb(28, 36, 36);
+  color: white;
+  height:40px;
+  
+  
+}
+.cardInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  
+}
+.info{
+  
+  text-align: center;
+  background-color: rgb(28, 36, 36);
+  color:white;
+}
+.btn_back{
+  margin-left: 43.5%;
+  margin-top: -200px;
+  width: 200px;
+  height:50px;
+  border: none;
+  outline: none;
+  background-color: rgb(124, 136, 113);
+  color: white;
+  font-size: 20px;
+}
+.span{
+  margin-left:60%;
+  margin-top:-14%;
+  width:20%;
+  height: 250px;
+  text-align: left;
+  
+}
+.main-p{
+  text-align: left;
+  margin-left: 20px;
+}

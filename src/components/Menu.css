@@ -1,0 +1,30 @@
+menu{
+    width:100%;
+    margin: 0;
+    height:50px;
+    background-color: rgb(32, 41, 35);
+}
+select{
+
+    width:300px;
+    margin:10px 10px;
+}
+button{
+    margin-top: -50px;
+    float: right;
+    border:none;
+    outline: none;
+}
+
+.them{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(169, 221, 199);
+    
+}
+.them:hover {
+   transform: scale(0.9);
+}
